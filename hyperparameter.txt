@@ -1,0 +1,64 @@
+|=====================================================================================================|
+| Iter | Eval   | Objective   | Objective   | BestSoFar   | BestSoFar   | NumNeighbors |     Distance |
+|      | result |             | runtime     | (observed)  | (estim.)    |              |              |
+|=====================================================================================================|
+|    1 | Best   |     0.20065 |      34.949 |     0.20065 |     0.20065 |         1841 |    chebychev |
+|    2 | Best   |    0.090784 |      21.036 |    0.090784 |    0.095152 |            2 |    minkowski |
+|    3 | Accept |     0.79935 |      42.182 |    0.090784 |     0.10741 |          368 |      jaccard |
+|    4 | Accept |     0.10999 |        21.5 |    0.090784 |     0.10222 |           11 |       cosine |
+|    5 | Accept |     0.14515 |      21.535 |    0.090784 |     0.11819 |           82 |    minkowski |
+|    6 | Accept |     0.13913 |      21.799 |    0.090784 |     0.11848 |           66 |  correlation |
+|    7 | Accept |     0.10962 |      21.331 |    0.090784 |     0.11824 |           11 |    cityblock |
+|    8 | Best   |    0.074962 |      23.033 |    0.074962 |    0.075102 |            1 |   seuclidean |
+|    9 | Accept |    0.076595 |      24.879 |    0.074962 |    0.075104 |            1 |     spearman |
+|   10 | Accept |     0.20065 |      26.712 |    0.074962 |    0.075091 |         1890 |    cityblock |
+|   11 | Accept |     0.07672 |      741.91 |    0.074962 |    0.075069 |            1 |  mahalanobis |
+|   12 | Accept |      0.1832 |      23.248 |    0.074962 |     0.07516 |            1 |      hamming |
+|   13 | Accept |     0.20065 |       27.39 |    0.074962 |    0.074996 |         3978 |   seuclidean |
+|   14 | Accept |     0.20065 |      29.188 |    0.074962 |    0.074993 |         3891 |     spearman |
+|   15 | Accept |     0.20065 |       742.6 |    0.074962 |     0.07499 |         3979 |  mahalanobis |
+|   16 | Accept |     0.20065 |      26.334 |    0.074962 |    0.074989 |         3967 |    cityblock |
+|   17 | Accept |     0.20065 |      26.137 |    0.074962 |    0.074988 |         3967 |       cosine |
+|   18 | Accept |     0.20065 |      30.231 |    0.074962 |    0.074995 |         3960 |      hamming |
+|   19 | Best   |    0.074962 |      20.868 |    0.074962 |    0.074995 |            1 |    cityblock |
+|   20 | Accept |    0.074962 |      20.953 |    0.074962 |    0.075013 |            1 |       cosine |
+|=====================================================================================================|
+| Iter | Eval   | Objective   | Objective   | BestSoFar   | BestSoFar   | NumNeighbors |     Distance |
+|      | result |             | runtime     | (observed)  | (estim.)    |              |              |
+|=====================================================================================================|
+|   21 | Best   |    0.073581 |      22.814 |    0.073581 |     0.07362 |            3 |    euclidean |
+|   22 | Accept |    0.090909 |      23.456 |    0.073581 |    0.073617 |            1 |    chebychev |
+|   23 | Accept |     0.07559 |      20.949 |    0.073581 |    0.073614 |            1 |  correlation |
+|   24 | Accept |    0.073581 |      22.607 |    0.073581 |    0.073597 |            3 |    euclidean |
+|   25 | Accept |    0.073581 |      22.272 |    0.073581 |    0.073592 |            3 |    euclidean |
+|   26 | Accept |    0.073581 |      22.278 |    0.073581 |    0.073589 |            3 |    euclidean |
+|   27 | Accept |      0.2726 |      39.909 |    0.073581 |    0.073584 |            1 |      jaccard |
+|   28 | Accept |     0.12017 |      21.936 |    0.073581 |    0.073584 |           14 |   seuclidean |
+|   29 | Accept |     0.19149 |      732.71 |    0.073581 |    0.073584 |           14 |  mahalanobis |
+|   30 | Accept |     0.12732 |      24.243 |    0.073581 |    0.073584 |           14 |     spearman |
+
+__________________________________________________________
+Optimization completed.
+MaxObjectiveEvaluations of 30 reached.
+Total function evaluations: 30
+Total elapsed time: 2944.1387 seconds.
+Total objective function evaluation time: 2900.9821
+
+Best observed feasible point:
+    NumNeighbors    Distance 
+    ____________    _________
+
+         3          euclidean
+
+Observed objective function value = 0.073581
+Estimated objective function value = 0.073584
+Function evaluation time = 22.8143
+
+Best estimated feasible point (according to models):
+    NumNeighbors    Distance 
+    ____________    _________
+
+         3          euclidean
+
+Estimated objective function value = 0.073584
+Estimated function evaluation time = 22.5269
